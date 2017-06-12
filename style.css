@@ -1,0 +1,114 @@
+/* basic setup */
+
+body{
+	margin: 0;
+	padding: 0;
+
+	overflow-x: hidden;
+}
+
+.site{
+	width: 100vw;
+
+	font-family: monospace;
+}
+
+/* about me */
+
+.about{
+	height: 100vh;
+	width: 100vw;
+
+	background: -moz-linear-gradient(top, #FFFFFF 1%, #F0F4F4 100%);
+}
+
+.image{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.image > img{
+	max-height: 150px;
+	max-width: 150px;
+
+	margin-top: 150px;
+}
+
+.about > p{
+	max-width: 200px;
+
+	margin: 50px auto 0 auto;
+	text-align: justify;
+}
+
+/* my projects */
+
+.projects{
+	height: 60vh;
+	width: 100vw;
+
+	background-color: #F0F4F4;
+
+	text-align:center;
+}
+
+.projects > p{
+	margin: 0;
+	padding: 0;
+}
+
+.projects > ul{
+	text-align: center;
+	margin: auto;
+
+	max-width: 150px;
+
+	list-style: none;
+	padding: 0;
+}
+
+.projects > ul > li{
+	margin: 10px 0 10px 0;
+}
+
+a{
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+a:active{
+	border: none;
+	outline: none;
+
+	color: #a36ac7;
+}
+
+.succ{
+	color: #0D9139;
+
+}
+
+.fail{
+	color: #CC342B;
+}
+
+/* footer */
+
+footer{
+	text-align: center;
+	line-height: 18px;
+
+	background: -moz-linear-gradient(top, #F0F4F4 100%, #FFFFFF 100%);
+}
+
+footer a{
+	color: black;
+	text-decoration: none;
+}
+
+footer a:active{
+	color: black;
+	outline: none;
+}
